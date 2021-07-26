@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC125BQ,115
+D 74AHC(T)125 - Quad buffer/line driver; 3-state@en-us
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf
+$ENDCMP
+#
+$CMP BAT760-7
+D Diode Schottky 30V 1A 2Pin SOD323 Diodes Inc BAT760-7, SMT Schottky Diode, 30V 1A, 2-Pin SOD-323
+F https://www.diodes.com/assets/Datasheets/ds30498.pdf
+$ENDCMP
+#
+$CMP ECS-120-18-33-JEM-TR
+D Crystals 12MHz 20ppm 18pF -20C +70C
+F https://componentsearchengine.com/Datasheets/1/ECS-120-18-33-JEM-TR.pdf
+$ENDCMP
+#
+$CMP M93C46-WMN6TP
+D M93C46-WMN6TP, Serial EEPROM Memory 1kbit, Serial-Microwire, 200ns 2.5  5.5 V, 8-Pin SOIC
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001142.pdf
+$ENDCMP
+#
+$CMP MC74VHC1GT04DFT1
+D ON SEMICONDUCTOR - MC74VHC1GT04DFT1 - IC, SINGLE INVERTING BUFFER, SC-88A-5
+F https://www.mouser.se/datasheet/2/308/mc74vhc1gt04-d-1193455.pdf
+$ENDCMP
+#
+$CMP MMSS8050-H-TP
+D Bipolar Transistors - BJT 625mW, 25V, 1500mA
+F http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+#End Doc Library
