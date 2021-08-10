@@ -10,6 +10,11 @@ D Diode Schottky 30V 1A 2Pin SOD323 Diodes Inc BAT760-7, SMT Schottky Diode, 30V
 F https://www.diodes.com/assets/Datasheets/ds30498.pdf
 $ENDCMP
 #
+$CMP ECS-120-18-33-JEM-TR
+D Crystals 12MHz 20ppm 18pF -20C +70C
+F https://componentsearchengine.com/Datasheets/1/ECS-120-18-33-JEM-TR.pdf
+$ENDCMP
+#
 $CMP M93C46-WMN6TP
 D M93C46-WMN6TP, Serial EEPROM Memory 1kbit, Serial-Microwire, 200ns 2.5  5.5 V, 8-Pin SOIC
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001142.pdf
@@ -30,10 +35,10 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
-$CMP ECS-120-18-33-JEM-TR
-D Crystals 12MHz 20ppm 18pF -20C +70C
+$CMP UJ2-MIBH-G-SMT-TR
+D USB Connectors
 K
-F https://componentsearchengine.com/Datasheets/1/ECS-120-18-33-JEM-TR.pdf
+F 
 $ENDCMP
 #
 #End Doc Library
