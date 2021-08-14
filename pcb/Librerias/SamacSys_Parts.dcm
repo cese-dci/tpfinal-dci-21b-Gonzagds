@@ -35,14 +35,13 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
-$CMP UJ2-MIBH-G-SMT-TR
-D USB Connectors
-$ENDCMP
-#
 $CMP PTS647SN38SMTR2LFS
 D Tactile Switches 50mA 12VDC, 1.0N 3.8mm H, G leads
-K
 F https:////www.ckswitches.com/media/2567/pts647.pdf
+$ENDCMP
+#
+$CMP UJ2-MIBH-G-SMT-TR
+D USB Connectors
 $ENDCMP
 #
 #End Doc Library

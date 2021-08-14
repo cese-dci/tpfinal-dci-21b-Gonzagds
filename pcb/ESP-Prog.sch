@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 2
 Title "Espressif Programmer"
 Date "2021-07-04"
-Rev "1.0"
+Rev "1.1"
 Comp "Sipel SRL"
-Comment1 ""
-Comment2 ""
+Comment1 "Autor: Gonzalo Sanhez"
+Comment2 "Licencia: Open source hardware"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "Espressif Programmer"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "1.1"
+Comp "Sipel SRL"
+Comment1 "Autor: Gonzalo Sanhez"
+Comment2 "Licencia: Open source hardware"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -187,10 +187,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 1950 2600 1950
 $Comp
-L SamacSys_Parts:M93C46-WMN6TP IC1
+L SamacSys_Parts:M93C46-WMN6TP U3
 U 1 1 60E7BE25
 P 2400 6850
-F 0 "IC1" H 2850 7115 50  0000 C CNN
+F 0 "U3" H 2850 7115 50  0000 C CNN
 F 1 "M93C46-WMN6TP" H 2850 7024 50  0000 C CNN
 F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 3150 6950 50  0001 L CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001142.pdf" H 3150 6850 50  0001 L CNN
@@ -392,10 +392,10 @@ EECLK
 Text Label 750  7050 0    50   ~ 0
 EEDATA
 $Comp
-L SamacSys_Parts:74AHC125BQ,115 IC3
+L SamacSys_Parts:74AHC125BQ,115 U5
 U 1 1 60ED1A1F
 P 8950 4850
-F 0 "IC3" H 9750 3950 50  0000 C CNN
+F 0 "U5" H 9750 3950 50  0000 C CNN
 F 1 "74AHC125BQ,115" H 10000 4050 50  0000 C CNN
 F 2 "SamacSys_Parts:QFN50P250X300X100-15N-D" H 10000 5250 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf" H 10000 5150 50  0001 L CNN
@@ -470,10 +470,10 @@ FT_TDI
 Text Label 8600 5450 0    50   ~ 0
 FT_TCK
 $Comp
-L SamacSys_Parts:MC74VHC1GT04DFT1 IC2
+L SamacSys_Parts:MC74VHC1GT04DFT1 U4
 U 1 1 60F0B678
 P 8850 3100
-F 0 "IC2" H 9450 3365 50  0000 C CNN
+F 0 "U4" H 9450 3365 50  0000 C CNN
 F 1 "MC74VHC1GT04DFT1" H 9450 3274 50  0000 C CNN
 F 2 "SamacSys_Parts:SOT65P210X110-5N" H 9900 3200 50  0001 L CNN
 F 3 "https://www.mouser.se/datasheet/2/308/mc74vhc1gt04-d-1193455.pdf" H 9900 3100 50  0001 L CNN
