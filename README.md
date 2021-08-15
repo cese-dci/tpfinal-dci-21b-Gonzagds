@@ -1,9 +1,11 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Gonzalo Daniel Sanchez
+* Título corto del trabajo:  Programador y debugger para módulos ESP-32
+* Descripción: Esta placa hace uso de un conversor USB a UART/JTAG/I2C/SPI de la empresa FTDI para implementar un grabador y debugger para módulos y kits de desarrollo de la empresa Espresiff. La placa tiene un conector para usar de grabador y otro conector para usa de debugger.
+Para el grabador se configura uno de los puertos del  conversor FTDI como un puerto UART y se conectan las señales de RX y TX a la UART del módulo ESP32. Las señales de CTS y RTS se utilizan para comandar las señales de reset y programación del módulo. Esta interfaz también se puede utilizar como simple conversor USB a UART para interactuar con la consola del modulo.
+El otro puerto del conversor FTDI se configura como una interfaz JTAG y se conecta directamente a las señales de JTAG del módulo Espressif.
 
 
 ## Licencia de este trabajo ##
