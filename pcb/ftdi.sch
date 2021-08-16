@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Espressif Programmer"
 Date ""
 Rev "1.1"
@@ -1061,16 +1061,6 @@ $EndComp
 Wire Wire Line
 	4050 1350 4200 1350
 Connection ~ 4050 1350
-Text GLabel 8450 3200 0    50   Input ~ 0
-ESP_EN
-Text GLabel 7400 3650 2    50   Input ~ 0
-ESP_TXD0
-Text GLabel 7400 3550 2    50   Input ~ 0
-ESP_RXD0
-Text GLabel 7400 3950 2    50   Input ~ 0
-FT_nDTR
-Text GLabel 7400 3750 2    50   Input ~ 0
-FT_nRTS
 Text Label 6450 2050 0    50   ~ 0
 FT_TMS
 Text Label 6450 1950 0    50   ~ 0
@@ -1079,18 +1069,6 @@ Text Label 6450 1850 0    50   ~ 0
 FT_TDI
 Text Label 6450 1750 0    50   ~ 0
 FT_TCK
-Text GLabel 10250 4600 2    50   Input ~ 0
-ESP_TMS
-Text GLabel 10250 5100 2    50   Input ~ 0
-ESP_TDI
-Text GLabel 8600 4950 0    50   Input ~ 0
-ESP_TDO
-Text GLabel 10250 5350 2    50   Input ~ 0
-ESP_TCK
-Text GLabel 3400 2750 0    50   Input ~ 0
-USB_DM
-Text GLabel 3400 2850 0    50   Input ~ 0
-USB_DP
 Wire Wire Line
 	3550 750  3450 750 
 Wire Wire Line
@@ -1231,4 +1209,26 @@ Wire Wire Line
 Connection ~ 10650 3100
 Wire Wire Line
 	10650 3100 10850 3100
+Text HLabel 3400 2750 0    50   Input ~ 0
+USB_DM
+Text HLabel 3400 2850 0    50   Input ~ 0
+USB_DP
+Text HLabel 8450 3200 0    50   Output ~ 0
+ESP_EN
+Text HLabel 7400 3550 2    50   Input ~ 0
+ESP_RXD0
+Text HLabel 7400 3650 2    50   Output ~ 0
+ESP_TXD0
+Text HLabel 7400 3750 2    50   Output ~ 0
+FT_nRTS
+Text HLabel 7400 3950 2    50   Output ~ 0
+FT_nDTR
+Text HLabel 8600 4950 0    50   Input ~ 0
+ESP_TDO
+Text HLabel 10250 4600 2    50   Input ~ 0
+ESP_TMS
+Text HLabel 10250 5100 2    50   Input ~ 0
+ESP_TDI
+Text HLabel 10250 5350 2    50   Input ~ 0
+ESP_TCK
 $EndSCHEMATC
