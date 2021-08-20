@@ -515,7 +515,7 @@ AR Path="/61231D98" Ref="J?"  Part="1"
 AR Path="/6120E92C/61231D98" Ref="J6"  Part="1" 
 F 0 "J6" H 9450 1867 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9450 1776 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9400 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD" H 9400 1550 50  0001 C CNN
 F 3 "~" H 9400 1550 50  0001 C CNN
 	1    9400 1550
 	1    0    0    -1  
