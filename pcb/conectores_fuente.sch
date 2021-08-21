@@ -6,11 +6,11 @@ encoding utf-8
 Sheet 3 3
 Title ""
 Date ""
-Rev ""
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "Programador y debugger para modulos Espressif "
 Comment4 ""
 $EndDescr
 Wire Wire Line
