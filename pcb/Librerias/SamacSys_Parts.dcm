@@ -5,6 +5,16 @@ D 74AHC(T)125 - Quad buffer/line driver; 3-state@en-us
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf
 $ENDCMP
 #
+$CMP 74AHC125D,118
+D 74AHC(T)125 - Quad buffer/line driver; 3-state@en-us
+F https://componentsearchengine.com/Datasheets/1/74AHC125D,118.pdf
+$ENDCMP
+#
+$CMP 74AHC125PW-Q100,11
+D 74AHC(T)125-Q100 - Quad buffer/line driver; 3-state@en-us
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125_Q100.pdf
+$ENDCMP
+#
 $CMP BAT760-7
 D Diode Schottky 30V 1A 2Pin SOD323 Diodes Inc BAT760-7, SMT Schottky Diode, 30V 1A, 2-Pin SOD-323
 F https://www.diodes.com/assets/Datasheets/ds30498.pdf

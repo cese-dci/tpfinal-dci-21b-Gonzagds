@@ -357,80 +357,27 @@ EECLK
 Text Label 6800 1650 0    50   ~ 0
 EEDATA
 $Comp
-L SamacSys_Parts:74AHC125BQ,115 U5
-U 1 1 60ED1A1F
-P 9250 5200
-F 0 "U5" H 10050 4300 50  0000 C CNN
-F 1 "74AHC125BQ,115" H 10300 4400 50  0000 C CNN
-F 2 "SamacSys_Parts:QFN50P250X300X100-15N-D" H 10300 5600 50  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf" H 10300 5500 50  0001 L CNN
-F 4 "74AHC(T)125 - Quad buffer/line driver; 3-state@en-us" H 10300 5400 50  0001 L CNN "Description"
-F 5 "1" H 10300 5300 50  0001 L CNN "Height"
-F 6 "771-74AHC125BQ-G" H 10300 5200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC125BQ115?qs=P62ublwmbi8QjemqxPiMnQ%3D%3D" H 10300 5100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Nexperia" H 10300 5000 50  0001 L CNN "Manufacturer_Name"
-F 9 "74AHC125BQ,115" H 10300 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9250 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR023
 U 1 1 60ED3C1C
-P 9850 6300
-F 0 "#PWR023" H 9850 6050 50  0001 C CNN
-F 1 "GND" H 9855 6127 50  0000 C CNN
-F 2 "" H 9850 6300 50  0001 C CNN
-F 3 "" H 9850 6300 50  0001 C CNN
-	1    9850 6300
+P 9300 5700
+F 0 "#PWR023" H 9300 5450 50  0001 C CNN
+F 1 "GND" H 9305 5527 50  0000 C CNN
+F 2 "" H 9300 5700 50  0001 C CNN
+F 3 "" H 9300 5700 50  0001 C CNN
+	1    9300 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 6300 9850 6150
-Wire Wire Line
-	9850 4600 9850 4500
-NoConn ~ 9750 4600
-Wire Wire Line
-	10450 4950 10550 4950
-Wire Wire Line
-	10450 5200 10550 5200
-Wire Wire Line
-	10450 5450 10550 5450
-Wire Wire Line
-	10450 5700 10550 5700
-Wire Wire Line
-	9250 4950 9200 4950
-Wire Wire Line
-	9250 5050 8900 5050
-Wire Wire Line
-	9250 5200 9200 5200
-Wire Wire Line
-	9250 5300 8900 5300
-Wire Wire Line
-	9250 5450 9200 5450
-Wire Wire Line
-	9250 5550 8900 5550
-Wire Wire Line
-	9250 5700 9200 5700
-Wire Wire Line
-	9250 5800 8900 5800
-Wire Wire Line
-	9200 4950 9200 5200
-Connection ~ 9200 5200
-Wire Wire Line
-	9200 5200 9200 5450
-Connection ~ 9200 5450
-Wire Wire Line
-	9200 5450 9200 5700
-Connection ~ 9200 4950
-Text Label 8900 4950 0    50   ~ 0
+	9300 5700 9300 5550
+Text Label 9300 4500 0    50   ~ 0
 ESP_EN_N
-Text Label 8900 5050 0    50   ~ 0
+Text Label 8800 5050 0    50   ~ 0
 FT_TMS
-Text Label 10550 5200 0    50   ~ 0
+Text Label 8800 5450 0    50   ~ 0
 FT_TDO
-Text Label 8900 5550 0    50   ~ 0
+Text Label 10700 5450 0    50   ~ 0
 FT_TDI
-Text Label 8900 5800 0    50   ~ 0
+Text Label 10700 5150 0    50   ~ 0
 FT_TCK
 $Comp
 L SamacSys_Parts:MC74VHC1GT04DFT1 U4
@@ -463,23 +410,12 @@ $EndComp
 $Comp
 L power:+3.3VP #PWR022
 U 1 1 60F0D884
-P 9850 4500
-F 0 "#PWR022" H 10000 4450 50  0001 C CNN
-F 1 "+3.3VP" H 9865 4673 50  0000 C CNN
-F 2 "" H 9850 4500 50  0001 C CNN
-F 3 "" H 9850 4500 50  0001 C CNN
-	1    9850 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR026
-U 1 1 60F0E085
-P 8750 3500
-F 0 "#PWR026" H 8900 3450 50  0001 C CNN
-F 1 "+3.3VP" H 8900 3600 50  0000 C CNN
-F 2 "" H 8750 3500 50  0001 C CNN
-F 3 "" H 8750 3500 50  0001 C CNN
-	1    8750 3500
+P 10400 4850
+F 0 "#PWR022" H 10550 4800 50  0001 C CNN
+F 1 "+3.3VP" H 10350 5000 50  0000 C CNN
+F 2 "" H 10400 4850 50  0001 C CNN
+F 3 "" H 10400 4850 50  0001 C CNN
+	1    10400 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -504,11 +440,6 @@ F 3 "" H 8750 3900 50  0001 C CNN
 	1    8750 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 3500 8750 3500
-Wire Wire Line
-	8750 3500 8750 3550
-Connection ~ 8750 3500
 Wire Wire Line
 	8750 3850 8750 3900
 Wire Wire Line
@@ -1177,13 +1108,11 @@ Text HLabel 6150 4800 2    50   Output ~ 0
 FT_nRTS
 Text HLabel 6150 5000 2    50   Output ~ 0
 FT_nDTR
-Text HLabel 8900 5300 0    50   Input ~ 0
+Text HLabel 8800 5350 0    50   Input ~ 0
 ESP_TDO
-Text HLabel 10550 4950 2    50   Input ~ 0
+Text HLabel 8800 5150 0    50   Input ~ 0
 ESP_TMS
-Text HLabel 10550 5450 2    50   Input ~ 0
-ESP_TDI
-Text HLabel 10550 5700 2    50   Input ~ 0
+Text HLabel 10700 5250 2    50   Input ~ 0
 ESP_TCK
 Wire Notes Line
 	6650 500  6650 7750
@@ -1195,14 +1124,6 @@ Text Notes 8500 750  0    118  ~ 0
 Memoria ROM
 Text Notes 6900 2650 0    118  ~ 0
 Buffers de señales y retarde de habilitación
-Wire Wire Line
-	9200 3300 9200 4450
-Wire Wire Line
-	9200 4450 8650 4450
-Wire Wire Line
-	8650 4450 8650 4950
-Wire Wire Line
-	8650 4950 9200 4950
 Wire Wire Line
 	4850 1800 4850 1650
 $Comp
@@ -1291,4 +1212,80 @@ F 3 "" H 4250 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 2500 4250 2400
+$Comp
+L SamacSys_Parts:74AHC125PW-Q100,11 U5
+U 1 1 6121C450
+P 9300 4950
+F 0 "U5" H 9850 5100 50  0000 C CNN
+F 1 "74AHC125PW-Q100,11" H 9900 4200 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP65P640X110-14N" H 10250 5050 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125_Q100.pdf" H 10250 4950 50  0001 L CNN
+F 4 "74AHC(T)125-Q100 - Quad buffer/line driver; 3-state@en-us" H 10250 4850 50  0001 L CNN "Description"
+F 5 "1.1" H 10250 4750 50  0001 L CNN "Height"
+F 6 "771-74AHC125PWQ10011" H 10250 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC125PW-Q10011?qs=vnbNJPHmPnMSFphxgi1ssg%3D%3D" H 10250 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nexperia" H 10250 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "74AHC125PW-Q100,11" H 10250 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5250 9200 5250
+Wire Wire Line
+	9200 5250 9200 4950
+Wire Wire Line
+	9200 4950 9300 4950
+Wire Wire Line
+	10400 5350 10500 5350
+Wire Wire Line
+	10500 5350 10500 5050
+Wire Wire Line
+	10500 5050 10400 5050
+Wire Wire Line
+	10500 5050 10500 4500
+Connection ~ 10500 5050
+Wire Wire Line
+	9200 3300 9200 4500
+Wire Wire Line
+	9300 5050 8800 5050
+Wire Wire Line
+	9300 5150 8800 5150
+Wire Wire Line
+	9300 5350 8800 5350
+Wire Wire Line
+	9300 5450 8800 5450
+Wire Wire Line
+	10400 5150 10700 5150
+Wire Wire Line
+	10400 5250 10700 5250
+Wire Wire Line
+	10400 5450 10700 5450
+Wire Wire Line
+	10400 5550 10700 5550
+Text HLabel 10700 5550 2    50   Input ~ 0
+ESP_TDI
+Wire Wire Line
+	9200 4500 10500 4500
+Wire Wire Line
+	9200 4950 9200 4500
+Connection ~ 9200 4950
+Connection ~ 9200 4500
+Wire Wire Line
+	10400 4950 10400 4850
+$Comp
+L power:+3.3VP #PWR026
+U 1 1 60F0E085
+P 8750 3500
+F 0 "#PWR026" H 8900 3450 50  0001 C CNN
+F 1 "+3.3VP" H 8900 3600 50  0000 C CNN
+F 2 "" H 8750 3500 50  0001 C CNN
+F 3 "" H 8750 3500 50  0001 C CNN
+	1    8750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3500 8750 3500
+Wire Wire Line
+	8750 3500 8750 3550
+Connection ~ 8750 3500
 $EndSCHEMATC
